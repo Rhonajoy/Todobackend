@@ -6,8 +6,8 @@ gem "sinatra", "~> 2.1"
 
 # A fast and simple web server
 # https://github.com/macournoyer/thin
-gem "thin", "~> 1.8"
-
+# gem "thin", "~> 1.8"
+gem 'pg', '~> 1.5', '>= 1.5.3'
 # Rack middleware. Used specifically for parsing the request body into params.
 # https://github.com/rack/rack-contrib
 gem "rack-contrib", "~> 2.3"
@@ -15,6 +15,8 @@ gem "rack-contrib", "~> 2.3"
 # More Rack middleware! Used to handle CORS requests
 # https://github.com/cyu/rack-cors
 gem "rack-cors", "~> 1.1"
+
+gem 'puma', '~> 6.3'
 
 # An object-relational mapper
 # https://guides.rubyonrails.org/active_record_basics.html
@@ -27,6 +29,9 @@ gem "sinatra-activerecord", "~> 2.0"
 # Run common tasks from the command line
 # https://github.com/ruby/rake
 gem "rake", "~> 13.0"
+
+# simple web client
+gem 'rest-client', '~> 2.1'
 
 # Provides functionality to interact with a SQLite3 database
 gem "sqlite3", "~> 1.4"
