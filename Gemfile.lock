@@ -23,6 +23,7 @@ GEM
     diff-lcs (1.5.0)
     domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
+    ffi (1.15.5)
     ffi (1.15.5-x64-mingw32)
     http-accept (1.7.0)
     http-cookie (1.0.5)
@@ -41,6 +42,7 @@ GEM
       ruby2_keywords (~> 0.0.1)
     netrc (0.11.0)
     nio4r (2.5.9)
+    pg (1.5.3)
     pg (1.5.3-x64-mingw32)
     pry (0.14.2)
       coderay (~> 1.1)
@@ -63,6 +65,11 @@ GEM
     require_all (3.0.0)
     rerun (0.14.0)
       listen (~> 3.0)
+    rest-client (2.1.0)
+      http-accept (>= 1.7.0, < 2.0)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 4.0)
+      netrc (~> 0.8)
     rest-client (2.1.0-x64-mingw32)
       ffi (~> 1.9)
       http-accept (>= 1.7.0, < 2.0)
@@ -93,16 +100,19 @@ GEM
       activerecord (>= 4.1)
       sinatra (>= 1.0)
     sqlite3 (1.6.3-x64-mingw32)
+    sqlite3 (1.6.3-x86_64-linux)
     tilt (2.2.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     unf (0.1.4)
       unf_ext
+    unf_ext (0.0.8.2)
     unf_ext (0.0.8.2-x64-mingw32)
     zeitwerk (2.6.8)
 
 PLATFORMS
   x64-mingw32
+  x86_64-linux
 
 DEPENDENCIES
   activerecord (~> 6.1)
