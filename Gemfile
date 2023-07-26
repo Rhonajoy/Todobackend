@@ -16,7 +16,7 @@ gem "rack-contrib", "~> 2.3"
 # https://github.com/cyu/rack-cors
 gem "rack-cors", "~> 1.1"
 
-# gem 'puma', '~> 6.3'
+gem 'puma', '~> 6.3'
 
 # An object-relational mapper
 # https://guides.rubyonrails.org/active_record_basics.html
