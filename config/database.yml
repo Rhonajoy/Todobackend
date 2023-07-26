@@ -37,4 +37,5 @@ test:
 
 production:
   <<: *default
+  adapter: postgresql
   database: postgres://notes_rtod_user:8V0dM7P3S6XO7cNQbwLEDpBqSgfKEiTg@dpg-cj0gl5j438irjjcsbbvg-a/notes_rtod
